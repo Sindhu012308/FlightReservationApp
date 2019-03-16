@@ -1,0 +1,44 @@
+2019-01-26 15:56:18 - Starting FlightReservationApplication on Sindhus-MacBook-Pro.local with PID 47339 (/Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation/target/classes started by sindhukatta in /Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation)
+2019-01-26 15:56:18 - No active profile set, falling back to default profiles: default
+2019-01-26 15:56:19 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-26 15:56:19 - Finished Spring Data repository scanning in 64ms. Found 5 repository interfaces.
+2019-01-26 15:56:19 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56f34ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-26 15:56:19 - Tomcat initialized with port(s): 8080 (http)
+2019-01-26 15:56:19 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-26 15:56:19 - Starting service [Tomcat]
+2019-01-26 15:56:19 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-26 15:56:19 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/sindhukatta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-26 15:56:20 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-26 15:56:20 - Initializing Spring embedded WebApplicationContext
+2019-01-26 15:56:20 - Root WebApplicationContext: initialization completed in 1121 ms
+2019-01-26 15:56:20 - HikariPool-1 - Starting...
+2019-01-26 15:56:20 - HikariPool-1 - Start completed.
+2019-01-26 15:56:20 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-26 15:56:20 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-26 15:56:20 - HHH000206: hibernate.properties not found
+2019-01-26 15:56:20 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-26 15:56:20 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-26 15:56:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-26 15:56:21 - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-26 15:56:22 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27d98bef, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d944fc0, org.springframework.security.web.header.HeaderWriterFilter@1bb96449, org.springframework.security.web.authentication.logout.LogoutFilter@58e03769, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b791dca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5df92089, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@349312d5, org.springframework.security.web.session.SessionManagementFilter@30cafd13, org.springframework.security.web.access.ExceptionTranslationFilter@50ff7063, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a2b7a35]
+2019-01-26 15:56:22 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-26 15:56:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-26 15:56:22 - Adding welcome page: ServletContext resource [/index.html]
+2019-01-26 15:56:22 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-26 15:56:22 - Using a shared selector for servlet write/read
+2019-01-26 15:56:22 - Tomcat started on port(s): 8080 (http) with context path '/flightReservation'
+2019-01-26 15:56:22 - Started FlightReservationApplication in 3.561 seconds (JVM running for 4.077)
+2019-01-26 15:56:59 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-26 15:56:59 - Initializing Servlet 'dispatcherServlet'
+2019-01-26 15:56:59 - Completed initialization in 6 ms
+2019-01-26 15:56:59 - Inside findReservation() with Id: 1
+2019-01-26 15:57:09 - Inside showRegistrationPage()
+2019-01-26 15:57:43 - Inside showRegistrationPage()
+2019-01-26 15:57:58 - Inside showLoginPage()
+2019-01-26 15:59:49 - Application shutdown requested.
+2019-01-26 15:59:49 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-26 15:59:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-26 15:59:49 - HikariPool-1 - Shutdown initiated...
+2019-01-26 15:59:49 - HikariPool-1 - Shutdown completed.

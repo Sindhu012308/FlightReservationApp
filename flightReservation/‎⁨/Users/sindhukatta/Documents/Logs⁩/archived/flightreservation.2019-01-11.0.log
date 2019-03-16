@@ -1,0 +1,83 @@
+2019-01-11 13:26:22 - Starting FlightReservationApplication on Sindhus-MacBook-Pro.local with PID 17328 (/Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation/target/classes started by sindhukatta in /Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation)
+2019-01-11 13:26:22 - No active profile set, falling back to default profiles: default
+2019-01-11 13:26:22 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-11 13:26:22 - Finished Spring Data repository scanning in 48ms. Found 5 repository interfaces.
+2019-01-11 13:26:23 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$95100001] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 13:26:23 - Tomcat initialized with port(s): 8080 (http)
+2019-01-11 13:26:23 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-11 13:26:23 - Starting service [Tomcat]
+2019-01-11 13:26:23 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 13:26:23 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/sindhukatta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-11 13:26:23 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-11 13:26:23 - Initializing Spring embedded WebApplicationContext
+2019-01-11 13:26:23 - Root WebApplicationContext: initialization completed in 1185 ms
+2019-01-11 13:26:23 - HikariPool-1 - Starting...
+2019-01-11 13:26:24 - HikariPool-1 - Start completed.
+2019-01-11 13:26:24 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-11 13:26:24 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-11 13:26:24 - HHH000206: hibernate.properties not found
+2019-01-11 13:26:24 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-11 13:26:24 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-11 13:26:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-11 13:26:25 - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-11 13:26:25 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@602298b, org.springframework.security.web.context.SecurityContextPersistenceFilter@7548e1fb, org.springframework.security.web.header.HeaderWriterFilter@619c3546, org.springframework.security.web.authentication.logout.LogoutFilter@6182ffef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@994544, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3335afcf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fb6b8fb, org.springframework.security.web.session.SessionManagementFilter@6736f40f, org.springframework.security.web.access.ExceptionTranslationFilter@6cceb281, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3cd46491]
+2019-01-11 13:26:25 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 13:26:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-11 13:26:25 - Adding welcome page: ServletContext resource [/index.html]
+2019-01-11 13:26:26 - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-11 13:26:26 - Using a shared selector for servlet write/read
+2019-01-11 13:26:26 - Tomcat started on port(s): 8080 (http) with context path '/flightReservation'
+2019-01-11 13:26:26 - Started FlightReservationApplication in 3.929 seconds (JVM running for 4.474)
+2019-01-11 13:26:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 13:26:58 - Initializing Servlet 'dispatcherServlet'
+2019-01-11 13:26:58 - Completed initialization in 7 ms
+2019-01-11 13:26:58 - Inside findReservation() with Id: 1
+2019-01-11 14:02:42 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m17s867ms).
+2019-01-11 14:09:44 - Inside showLoginPage()
+2019-01-11 15:05:42 - Inside findReservation() with Id: 1
+2019-01-11 15:08:20 - Inside findReservation() with Id: 1
+2019-01-11 15:08:31 - Inside findReservation() with Id: 1
+2019-01-11 15:17:39 - Inside findReservation() with Id: 1
+2019-01-11 15:17:46 - Inside findReservation() with Id: 1
+2019-01-11 15:17:46 - Inside findReservation() with Id: 1
+2019-01-11 15:17:50 - Inside findReservation() with Id: 1
+2019-01-11 15:17:50 - Inside findReservation() with Id: 1
+2019-01-11 15:17:56 - Inside findReservation() with Id: 1
+2019-01-11 15:18:23 - Inside findReservation() with Id: 1
+2019-01-11 15:19:23 - Inside findReservation() with Id: 1
+2019-01-11 15:19:41 - Inside findReservation() with Id: 1
+2019-01-11 15:20:07 - Inside findReservation() with Id: 1
+2019-01-11 15:20:13 - Inside findReservation() with Id: 1
+2019-01-11 15:22:00 - Inside findReservation() with Id: 1
+2019-01-11 15:22:09 - Inside findReservation() with Id: 1
+2019-01-11 15:24:13 - Inside findReservation() with Id: 1
+2019-01-11 15:24:14 - Inside findReservation() with Id: 1
+2019-01-11 15:25:04 - Inside findReservation() with Id: 1
+2019-01-11 15:25:04 - Inside findReservation() with Id: 1
+2019-01-11 15:28:18 - Inside findReservation() with Id: 1
+2019-01-11 15:28:18 - Inside findReservation() with Id: 1
+2019-01-11 15:30:36 - Inside findReservation() with Id: 1
+2019-01-11 15:30:36 - Inside findReservation() with Id: 1
+2019-01-11 15:31:20 - Inside findReservation() with Id: 1
+2019-01-11 15:31:21 - Inside findReservation() with Id: 1
+2019-01-11 15:31:38 - Inside findReservation() with Id: 1
+2019-01-11 15:31:38 - Inside findReservation() with Id: 1
+2019-01-11 15:32:18 - Inside findReservation() with Id: 1
+2019-01-11 15:32:19 - Inside findReservation() with Id: 1
+2019-01-11 15:36:11 - Inside findReservation() with Id: 1
+2019-01-11 15:36:35 - Inside findReservation() with Id: 1
+2019-01-11 15:37:09 - Inside findReservation() with Id: 1
+2019-01-11 15:37:46 - Inside findReservation() with Id: 1
+2019-01-11 15:37:46 - Inside findReservation() with Id: 1
+2019-01-11 15:38:58 - Inside findReservation() with Id: 11
+2019-01-11 15:59:20 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m7s661ms).
+2019-01-11 16:29:31 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m11s211ms).
+2019-01-11 16:52:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m22s783ms).
+2019-01-11 17:00:29 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m4s363ms).
+2019-01-11 17:36:02 - Application shutdown requested.
+2019-01-11 17:36:02 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 17:36:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-11 17:36:02 - HikariPool-1 - Shutdown initiated...
+2019-01-11 17:36:02 - HikariPool-1 - Shutdown completed.

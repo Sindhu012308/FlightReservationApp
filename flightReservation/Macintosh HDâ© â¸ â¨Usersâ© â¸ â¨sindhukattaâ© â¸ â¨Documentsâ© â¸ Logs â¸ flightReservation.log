@@ -1,0 +1,76 @@
+2019-01-09 18:08:22.868  INFO 83198 --- [main] c.s.f.FlightReservationApplication       : Starting FlightReservationApplication on Sindhus-MacBook-Pro.local with PID 83198 (/Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation/target/classes started by sindhukatta in /Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation)
+2019-01-09 18:08:22.870  INFO 83198 --- [main] c.s.f.FlightReservationApplication       : No active profile set, falling back to default profiles: default
+2019-01-09 18:08:23.220  INFO 83198 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-09 18:08:23.265  INFO 83198 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 4 repository interfaces.
+2019-01-09 18:08:23.461  INFO 83198 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f70b1c56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 18:08:23.655  INFO 83198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-09 18:08:23.668  INFO 83198 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-09 18:08:23.669  INFO 83198 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-09 18:08:23.673  INFO 83198 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/sindhukatta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-09 18:08:23.801  INFO 83198 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-09 18:08:23.804  INFO 83198 --- [main] o.a.c.c.C.[.[.[/flightReservation]       : Initializing Spring embedded WebApplicationContext
+2019-01-09 18:08:23.804  INFO 83198 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 915 ms
+2019-01-09 18:08:23.892  INFO 83198 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-09 18:08:24.144  INFO 83198 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-09 18:08:24.176  INFO 83198 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-09 18:08:24.208  INFO 83198 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-09 18:08:24.209  INFO 83198 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-09 18:08:24.284  INFO 83198 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-09 18:08:24.361  INFO 83198 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-09 18:08:24.716  INFO 83198 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 18:08:24.890  INFO 83198 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-09 18:08:25.130  INFO 83198 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-09 18:08:25.153  WARN 83198 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-09 18:08:25.197  INFO 83198 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2019-01-09 18:08:25.305  INFO 83198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightReservation'
+2019-01-09 18:08:25.307  INFO 83198 --- [main] c.s.f.FlightReservationApplication       : Started FlightReservationApplication in 2.635 seconds (JVM running for 3.04)
+2019-01-09 18:08:37.118  INFO 83198 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightReservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-09 18:08:37.119  INFO 83198 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-09 18:08:37.124  INFO 83198 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-09 18:08:37.156  INFO 83198 --- [http-nio-8080-exec-1] c.s.f.Controllers.UserController         : Inside login() and email is: katta.sweety.2301@gmail.com
+2019-01-09 18:08:42.558  INFO 83198 --- [http-nio-8080-exec-3] c.s.f.Controllers.FlightController       : Inside findFlights() from:AUS to: NYC Departure Date: Mon Feb 05 00:00:00 CST 2018
+2019-01-09 18:14:13.373  INFO 83198 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-01-09 18:14:13.375  INFO 83198 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-09 18:14:13.376  INFO 83198 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 18:14:13.377  INFO 83198 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-09 18:14:13.381  INFO 83198 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-09 18:14:16.189  INFO 83576 --- [main] c.s.f.FlightReservationApplication       : Starting FlightReservationApplication on Sindhus-MacBook-Pro.local with PID 83576 (/Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation/target/classes started by sindhukatta in /Users/sindhukatta/Documents/workspace-spring-tool-suite-4-4.0.0.RELEASE/flightReservation)
+2019-01-09 18:14:16.191  INFO 83576 --- [main] c.s.f.FlightReservationApplication       : No active profile set, falling back to default profiles: default
+2019-01-09 18:14:16.552  INFO 83576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-09 18:14:16.597  INFO 83576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 4 repository interfaces.
+2019-01-09 18:14:16.790  INFO 83576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b805bccc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-09 18:14:16.992  INFO 83576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-09 18:14:17.008  INFO 83576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-09 18:14:17.008  INFO 83576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-09 18:14:17.012  INFO 83576 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/sindhukatta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-09 18:14:17.129  INFO 83576 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-09 18:14:17.132  INFO 83576 --- [main] o.a.c.c.C.[.[.[/flightReservation]       : Initializing Spring embedded WebApplicationContext
+2019-01-09 18:14:17.132  INFO 83576 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 919 ms
+2019-01-09 18:14:17.223  INFO 83576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-09 18:14:17.479  INFO 83576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-09 18:14:17.509  INFO 83576 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-09 18:14:17.540  INFO 83576 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-09 18:14:17.541  INFO 83576 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-09 18:14:17.613  INFO 83576 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-09 18:14:17.690  INFO 83576 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-09 18:14:18.065  INFO 83576 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 18:14:18.241  INFO 83576 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-09 18:14:18.482  INFO 83576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-09 18:14:18.505  WARN 83576 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-09 18:14:18.549  INFO 83576 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2019-01-09 18:14:18.655  INFO 83576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightReservation'
+2019-01-09 18:14:18.657  INFO 83576 --- [main] c.s.f.FlightReservationApplication       : Started FlightReservationApplication in 2.686 seconds (JVM running for 3.074)
+2019-01-09 18:14:30.565  INFO 83576 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightReservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-09 18:14:30.565  INFO 83576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-09 18:14:30.570  INFO 83576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-09 18:14:30.601  INFO 83576 --- [http-nio-8080-exec-1] c.s.f.Controllers.UserController         : Inside login() and email is: katta.sweety.2301@gmail.com
+2019-01-09 18:14:37.382  INFO 83576 --- [http-nio-8080-exec-3] c.s.f.Controllers.FlightController       : Inside findFlights() from:AUS to: NYC Departure Date: Mon Feb 05 00:00:00 CST 2018
+2019-01-09 18:15:52.960  INFO 83576 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-01-09 18:15:52.962  INFO 83576 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-09 18:15:52.963  INFO 83576 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-09 18:15:52.964  INFO 83576 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-09 18:15:52.968  INFO 83576 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
